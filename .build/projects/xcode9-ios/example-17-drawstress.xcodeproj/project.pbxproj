@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		831AD04B6FB1120118668901 /* drawstress.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21E071F5EB268CD6799D883 /* drawstress.cpp */; };
+		0C91CA4478242CF3810B9CA9 /* libexample-glueDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BAF315E676FC202D08CAA0D /* libexample-glueDebug.a */; };
+		DD833294C91A754972CFEB49 /* libexample-commonDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7FF3F1D81255A0E1F9C456 /* libexample-commonDebug.a */; };
+		1ADA29700683919F2F19AD1E /* libbgfxDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C968E41935CE77A0BEA61979 /* libbgfxDebug.a */; };
+		E3F1B5C54FBA8349184B8C5B /* libbimg_decodeDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1296CF23FE6A17D7271A57D3 /* libbimg_decodeDebug.a */; };
+		8F4870D57BF1D704A487F383 /* libbimgDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBAE9BB8A1F7D4213F81E1B /* libbimgDebug.a */; };
+		63F46C1C4F076D75F8F04962 /* libbxDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B23DE4FA1ECDA5E527C986FD /* libbxDebug.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F860D7D76476452EED321F8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD43506829ADE5CAB2F09375 /* example-glue.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E1955B9C4D796ADC567C9818;
+			remoteInfo = "libexample-glueDebug.a";
+		};
+		921E98D3FE33062A87F0DF8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD43506829ADE5CAB2F09375 /* example-glue.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A7CD7A7993F344E07C39CAAB;
+			remoteInfo = "libexample-glueDebug.a";
+		};
+		498E05B735E7753A5EE157D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE9C6F46BAC9BB77E3AA5E88 /* example-common.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9D8CE35A09FB38DA52E4F3D9;
+			remoteInfo = "libexample-commonDebug.a";
+		};
+		2330F0410F8960C53883425F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE9C6F46BAC9BB77E3AA5E88 /* example-common.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E3DC407FCF2D2CC1F8911A83;
+			remoteInfo = "libexample-commonDebug.a";
+		};
+		AF84F7E49BEFB7F0440B1D56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74CD4979600CF4F4098FD026 /* bgfx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 02DC17D86E13606F771DC492;
+			remoteInfo = "libbgfxDebug.a";
+		};
+		4951252435BCE52FDED74A95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74CD4979600CF4F4098FD026 /* bgfx.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A853C66B944DEFBD7DBA85CE;
+			remoteInfo = "libbgfxDebug.a";
+		};
+		4F7C3B7ABB460DD5044D0CFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B413CBCF2032DF9C69FFE4AE /* bimg_decode.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7D6367F06989315752CFB622;
+			remoteInfo = "libbimg_decodeDebug.a";
+		};
+		C9CDD3563598A5B17E9EA4D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B413CBCF2032DF9C69FFE4AE /* bimg_decode.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C35735362F701C60F81CACF9;
+			remoteInfo = "libbimg_decodeDebug.a";
+		};
+		3B0675532771355FD08C9AC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0083D44DECC17EC995445BFB /* bimg.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5ACAB1E8C601FA7FCF0B5EA3;
+			remoteInfo = "libbimgDebug.a";
+		};
+		D5D2A292C13D639E6A59C803 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0083D44DECC17EC995445BFB /* bimg.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 00D72F0FECD05861D53DEF71;
+			remoteInfo = "libbimgDebug.a";
+		};
+		F89D84BBE472CC6E0D220C6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D495FAB0C03E62E0E9D47D5F /* bx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D5D335834140F17D0A3489DB;
+			remoteInfo = "libbxDebug.a";
+		};
+		52D63E873EAB863A675AC636 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D495FAB0C03E62E0E9D47D5F /* bx.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B1D4BC607ACD48FB0CAE88A;
+			remoteInfo = "libbxDebug.a";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F21E071F5EB268CD6799D883 /* drawstress.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "drawstress.cpp"; path = "drawstress.cpp"; sourceTree = "<group>"; };
+		ADD1F4B2194437CF62D86C53 /* iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iOS-Info.plist"; path = "iOS-Info.plist"; sourceTree = "<group>"; };
+		36723A23A22FE3592BFACEC1 /* tvOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "tvOS-Info.plist"; path = "tvOS-Info.plist"; sourceTree = "<group>"; };
+		5DADEC8049E9EFEAB2FB07E2 /* example-17-drawstress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "example-17-drawstress.app"; path = "example-17-drawstress.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD43506829ADE5CAB2F09375 /* example-glue.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "example-glue.xcodeproj"; path = "example-glue.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		CE9C6F46BAC9BB77E3AA5E88 /* example-common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "example-common.xcodeproj"; path = "example-common.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		74CD4979600CF4F4098FD026 /* bgfx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "bgfx.xcodeproj"; path = "bgfx.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		B413CBCF2032DF9C69FFE4AE /* bimg_decode.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "bimg_decode.xcodeproj"; path = "bimg_decode.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		0083D44DECC17EC995445BFB /* bimg.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "bimg.xcodeproj"; path = "bimg.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		D495FAB0C03E62E0E9D47D5F /* bx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "bx.xcodeproj"; path = "bx.xcodeproj"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36B0D412A22152E72B3B2CC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C91CA4478242CF3810B9CA9 /* libexample-glueDebug.a in Frameworks */,
+				DD833294C91A754972CFEB49 /* libexample-commonDebug.a in Frameworks */,
+				1ADA29700683919F2F19AD1E /* libbgfxDebug.a in Frameworks */,
+				E3F1B5C54FBA8349184B8C5B /* libbimg_decodeDebug.a in Frameworks */,
+				8F4870D57BF1D704A487F383 /* libbimgDebug.a in Frameworks */,
+				63F46C1C4F076D75F8F04962 /* libbxDebug.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2857EBA794924B6B9D87C8FA /* example-17-drawstress */ = {
+			isa = PBXGroup;
+			children = (
+				68F66A4354326EADBD4486A4 /* examples */,
+				8B6ADF33F7234ADE808364B8 /* Products */,
+				A233B0710EED1A1C974C35F6 /* Projects */,
+			);
+			name = "example-17-drawstress";
+			path = ".";
+			sourceTree = "<group>";
+		};
+		68F66A4354326EADBD4486A4 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				FF1E0CA6EBC773D5145E8F54 /* 17-drawstress */,
+				9F0339938B6BFF60F4D61377 /* runtime */,
+			);
+			name = "examples";
+			path = "../../../examples";
+			sourceTree = "<group>";
+		};
+		FF1E0CA6EBC773D5145E8F54 /* 17-drawstress */ = {
+			isa = PBXGroup;
+			children = (
+				F21E071F5EB268CD6799D883 /* drawstress.cpp */,
+			);
+			name = "17-drawstress";
+			path = "17-drawstress";
+			sourceTree = "<group>";
+		};
+		9F0339938B6BFF60F4D61377 /* runtime */ = {
+			isa = PBXGroup;
+			children = (
+				ADD1F4B2194437CF62D86C53 /* iOS-Info.plist */,
+				36723A23A22FE3592BFACEC1 /* tvOS-Info.plist */,
+			);
+			name = "runtime";
+			path = "runtime";
+			sourceTree = "<group>";
+		};
+		8B6ADF33F7234ADE808364B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DADEC8049E9EFEAB2FB07E2 /* example-17-drawstress.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		A233B0710EED1A1C974C35F6 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				BD43506829ADE5CAB2F09375 /* example-glue.xcodeproj */,
+				CE9C6F46BAC9BB77E3AA5E88 /* example-common.xcodeproj */,
+				74CD4979600CF4F4098FD026 /* bgfx.xcodeproj */,
+				B413CBCF2032DF9C69FFE4AE /* bimg_decode.xcodeproj */,
+				0083D44DECC17EC995445BFB /* bimg.xcodeproj */,
+				D495FAB0C03E62E0E9D47D5F /* bx.xcodeproj */,
+			);
+			name = "Projects";
+			path = ".";
+			sourceTree = "<group>";
+		};
+		D7E63351C3FE3E062CCE1ECB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BAF315E676FC202D08CAA0D /* libexample-glueDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8D15A3C34BD6D9D3D967416 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C7FF3F1D81255A0E1F9C456 /* libexample-commonDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEC0EBC31A7E94FAA3488062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C968E41935CE77A0BEA61979 /* libbgfxDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		972873D48355BF05AC366216 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1296CF23FE6A17D7271A57D3 /* libbimg_decodeDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA40B99826FE61CFAFC84D37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EBAE9BB8A1F7D4213F81E1B /* libbimgDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17615880834843768C3645F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B23DE4FA1ECDA5E527C986FD /* libbxDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3E548040F549E83583D5983 /* example-17-drawstress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20AA1085E7C1EDDE795F8BA /* Build configuration list for PBXNativeTarget "example-17-drawstress" */;
+			buildPhases = (
+				14D2070C804385E0095D5FBE /* Resources */,
+				4C5F6E0FB8D0EBE341EAC5C1 /* Sources */,
+				36B0D412A22152E72B3B2CC5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83D198206FE9A3D5D8B8839A /* PBXTargetDependency */,
+				34D1DA75A0BCEDD6A995F44F /* PBXTargetDependency */,
+				5A38E66AC6F58EA14FC07A09 /* PBXTargetDependency */,
+				BA8D3471A6BA80A2CF9B23B3 /* PBXTargetDependency */,
+				66B8B33FD2755C765B4048DE /* PBXTargetDependency */,
+				03B4BCBF6F9BA7B57889A931 /* PBXTargetDependency */,
+			);
+			name = "example-17-drawstress";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "example-17-drawstress";
+			productReference = 5DADEC8049E9EFEAB2FB07E2 /* example-17-drawstress.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		__RootObject_ /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "example-17-drawstress" */;
+			compatibilityVersion = "Xcode 8.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 2857EBA794924B6B9D87C8FA /* example-17-drawstress */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D7E63351C3FE3E062CCE1ECB /* Products */;
+					ProjectRef = BD43506829ADE5CAB2F09375 /* example-glue.xcodeproj */;
+				},
+				{
+					ProductGroup = C8D15A3C34BD6D9D3D967416 /* Products */;
+					ProjectRef = CE9C6F46BAC9BB77E3AA5E88 /* example-common.xcodeproj */;
+				},
+				{
+					ProductGroup = AEC0EBC31A7E94FAA3488062 /* Products */;
+					ProjectRef = 74CD4979600CF4F4098FD026 /* bgfx.xcodeproj */;
+				},
+				{
+					ProductGroup = 972873D48355BF05AC366216 /* Products */;
+					ProjectRef = B413CBCF2032DF9C69FFE4AE /* bimg_decode.xcodeproj */;
+				},
+				{
+					ProductGroup = BA40B99826FE61CFAFC84D37 /* Products */;
+					ProjectRef = 0083D44DECC17EC995445BFB /* bimg.xcodeproj */;
+				},
+				{
+					ProductGroup = 17615880834843768C3645F2 /* Products */;
+					ProjectRef = D495FAB0C03E62E0E9D47D5F /* bx.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A3E548040F549E83583D5983 /* example-17-drawstress.app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7BAF315E676FC202D08CAA0D /* libexample-glueDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../ios-arm/bin/libexample-glueDebug.a";
+			remoteRef = F860D7D76476452EED321F8F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6C7FF3F1D81255A0E1F9C456 /* libexample-commonDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../ios-arm/bin/libexample-commonDebug.a";
+			remoteRef = 498E05B735E7753A5EE157D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C968E41935CE77A0BEA61979 /* libbgfxDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../ios-arm/bin/libbgfxDebug.a";
+			remoteRef = AF84F7E49BEFB7F0440B1D56 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1296CF23FE6A17D7271A57D3 /* libbimg_decodeDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../ios-arm/bin/libbimg_decodeDebug.a";
+			remoteRef = 4F7C3B7ABB460DD5044D0CFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1EBAE9BB8A1F7D4213F81E1B /* libbimgDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../ios-arm/bin/libbimgDebug.a";
+			remoteRef = 3B0675532771355FD08C9AC4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B23DE4FA1ECDA5E527C986FD /* libbxDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../ios-arm/bin/libbxDebug.a";
+			remoteRef = F89D84BBE472CC6E0D220C6B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14D2070C804385E0095D5FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C5F6E0FB8D0EBE341EAC5C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831AD04B6FB1120118668901 /* drawstress.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin PBXTargetDependency section */
+		83D198206FE9A3D5D8B8839A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libexample-glueDebug.a";
+			targetProxy = 921E98D3FE33062A87F0DF8A /* PBXContainerItemProxy */;
+		};
+		34D1DA75A0BCEDD6A995F44F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libexample-commonDebug.a";
+			targetProxy = 2330F0410F8960C53883425F /* PBXContainerItemProxy */;
+		};
+		5A38E66AC6F58EA14FC07A09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libbgfxDebug.a";
+			targetProxy = 4951252435BCE52FDED74A95 /* PBXContainerItemProxy */;
+		};
+		BA8D3471A6BA80A2CF9B23B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libbimg_decodeDebug.a";
+			targetProxy = C9CDD3563598A5B17E9EA4D6 /* PBXContainerItemProxy */;
+		};
+		66B8B33FD2755C765B4048DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libbimgDebug.a";
+			targetProxy = D5D2A292C13D639E6A59C803 /* PBXContainerItemProxy */;
+		};
+		03B4BCBF6F9BA7B57889A931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libbxDebug.a";
+			targetProxy = 52D63E873EAB863A675AC636 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		93038C967F6B5264E8D6667A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "../../ios-arm/bin";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = "$(SRCROOT)/../../../examples/runtime/iOS-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = "example-17-drawstressDebug";
+			};
+			name = Debug;
+		};
+		8DABF69F79BEF6F822A8D3E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "../../ios-arm/bin";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = "$(SRCROOT)/../../../examples/runtime/iOS-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = "example-17-drawstressRelease";
+			};
+			name = Release;
+		};
+		5A4F818F4625088D2FCF22E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_SOURCE_FILE_NAMES = (
+					"*/examples/runtime/tvOS-Info.plist",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					__STDC_LIMIT_MACROS,
+					__STDC_FORMAT_MACROS,
+					__STDC_CONSTANT_MACROS,
+					_DEBUG,
+					"ENTRY_CONFIG_IMPLEMENT_MAIN=1",
+					"BX_CONFIG_DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../../../bx/include/compat/ios,
+					../../../../bimg/include,
+					../../../include,
+					../../../3rdparty,
+					../../../examples/common,
+					../../../../bx/include,
+				);
+				OBJROOT = "../../ios-arm/obj/Debug/example-17-drawstress";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+					"-fomit-frame-pointer",
+					"-Wfatal-errors",
+					"-Wunused-value",
+					"-Wundef",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-ffast-math",
+					"-fomit-frame-pointer",
+					"-Wfatal-errors",
+					"-Wunused-value",
+					"-Wundef",
+				);
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-framework CoreFoundation",
+					"-framework Foundation",
+					"-framework IOKit",
+					"-framework OpenGLES",
+					"-framework QuartzCore",
+					"-framework UIKit",
+					"-weak_framework Metal",
+				);
+				SDKROOT = iphoneos;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../ios-arm/bin";
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Debug;
+		};
+		35DAAC2521DB40A04AA3AD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_SOURCE_FILE_NAMES = (
+					"*/examples/runtime/tvOS-Info.plist",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					__STDC_LIMIT_MACROS,
+					__STDC_FORMAT_MACROS,
+					__STDC_CONSTANT_MACROS,
+					NDEBUG,
+					"ENTRY_CONFIG_IMPLEMENT_MAIN=1",
+					"BX_CONFIG_DEBUG=0",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../../../../bx/include/compat/ios,
+					../../../../bimg/include,
+					../../../include,
+					../../../3rdparty,
+					../../../examples/common,
+					../../../../bx/include,
+				);
+				OBJROOT = "../../ios-arm/obj/Release/example-17-drawstress";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+					"-fomit-frame-pointer",
+					"-Wfatal-errors",
+					"-Wunused-value",
+					"-Wundef",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-ffast-math",
+					"-fomit-frame-pointer",
+					"-Wfatal-errors",
+					"-Wunused-value",
+					"-Wundef",
+				);
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-framework CoreFoundation",
+					"-framework Foundation",
+					"-framework IOKit",
+					"-framework OpenGLES",
+					"-framework QuartzCore",
+					"-framework UIKit",
+					"-weak_framework Metal",
+				);
+				SDKROOT = iphoneos;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../ios-arm/bin";
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F20AA1085E7C1EDDE795F8BA /* Build configuration list for PBXNativeTarget "example-17-drawstress.app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93038C967F6B5264E8D6667A /* Debug */,
+				8DABF69F79BEF6F822A8D3E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug";
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "example-17-drawstress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4F818F4625088D2FCF22E0 /* Debug */,
+				35DAAC2521DB40A04AA3AD24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug";
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = __RootObject_ /* Project object */;
+}

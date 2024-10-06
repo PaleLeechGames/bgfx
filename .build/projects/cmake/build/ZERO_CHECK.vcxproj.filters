@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\lusr\Documents\bgfx-build\bgfx\.build\projects\cmake\build\CMakeFiles\933434fae7fc9d49aa1712daffd0a5cb\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BDE67FC5-BB18-3277-AD51-DFC59079DB77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

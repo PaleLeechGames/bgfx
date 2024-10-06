@@ -1,0 +1,6 @@
+C:/Users/lusr/Documents/bgfx-build/bgfx/.build/projects/cmake/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/lusr/Documents/bgfx-build/bgfx/.build/projects/cmake/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/lusr/Documents/bgfx-build/bgfx/.build/projects/cmake/build/bx/CMakeFiles/ALL_BUILD.dir
+C:/Users/lusr/Documents/bgfx-build/bgfx/.build/projects/cmake/build/bimg/CMakeFiles/ALL_BUILD.dir
+C:/Users/lusr/Documents/bgfx-build/bgfx/.build/projects/cmake/build/bimg_decode/CMakeFiles/ALL_BUILD.dir
+C:/Users/lusr/Documents/bgfx-build/bgfx/.build/projects/cmake/build/bgfx/CMakeFiles/ALL_BUILD.dir

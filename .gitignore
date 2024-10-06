@@ -2,7 +2,7 @@
 *.dxvk-cache
 *.log
 .DS_Store
-.build
+#.build
 .debug
 .gdb_history
 .git
